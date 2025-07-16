@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home" class="section home-section">
+        <div class="container home-content">
+            <h1>Welcome! I'm Swayam</h1>
+            <p class="intro">A passionate developer eager to build amazing things on the web.</p>
+        </div>
+    </section>
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Education</h3>
+                    <p>Bachelor's in Information Technology, Institute of Advanced Research University</p>
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>React, Node.js</li>
+                        <li>C, Java, Python</li>
+                    </ul>
+                    <h3>Interests</h3>
+                    <p>Coding, UI/UX Design, Open Source, Gaming</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project One</h3>
+                    <p>A website which is used for cryptocurrency trading using java </p>
+                    <a href="https://github.com/Swayam20-08/java-project" target="_blank">Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project Two</h3>
+                    <p>A calculator using html,css and javascript which i have hosted on github pages</p>
+                    <a href="https://swayam20-08.github.io/calculator/" target="_blank">Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project Three</h3>
+                    <p>Weather dashboard using API.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm" class="contact-form" novalidate>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html> 
